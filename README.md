@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="docs/mascot.png" width="180" alt="palitada mascot: a Filipino construction worker in a t-shirt sun mask, waist up, flexing his biceps with a plastering trowel raised, in front of a wall that reads UI/UX">
+<img src="docs/mascot.png" width="180" alt="palitada mascot: a Filipino construction worker in a t-shirt sun mask, waist up, smoothing a half-plastered wall that reads UI/UX with a trowel">
 
 # palitada
 
@@ -10,7 +10,7 @@ Palitada is Filipino for plastering: point at a rough spot in your UI and smooth
 
 [![Install](https://img.shields.io/badge/Install-npm_i_--g_github:riecodes%2Fpalitada-CB3837?logo=npm&logoColor=white)](#install)
 [![Node](https://img.shields.io/badge/Node-20%2B-339933?logo=nodedotjs&logoColor=white)](https://nodejs.org)
-[![License: MIT](https://img.shields.io/badge/License-MIT-2563EB)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-2563EB?logo=opensourceinitiative&logoColor=white)](LICENSE)
 
 [![Claude Code channel](https://img.shields.io/badge/Claude_Code-channel-D97757?logo=anthropic&logoColor=white)](https://code.claude.com/docs/en/channels-reference)
 [![Agent Skill](https://img.shields.io/badge/Agent_Skill-%2Fpalitada-D97757?logo=anthropic&logoColor=white)](skill/SKILL.md)
