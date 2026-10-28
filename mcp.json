@@ -1,0 +1,5 @@
+{
+  "mcpServers": {
+    "palitada": { "command": "palitada", "args": ["channel"] }
+  }
+}

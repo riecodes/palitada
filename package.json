@@ -1,0 +1,20 @@
+{
+  "name": "palitada",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Click an element on your local dev page: edit its text in place (saved to source), delete it, or comment on it for Claude Code.",
+  "license": "MIT",
+  "repository": "github:riecodes/palitada",
+  "engines": { "node": ">=20" },
+  "type": "module",
+  "bin": { "palitada": "palitada.mjs" },
+  "scripts": {
+    "test": "node test.mjs"
+  },
+  "dependencies": {
+    "modern-screenshot": "4.7.0"
+  },
+  "devDependencies": {
+    "playwright-core": "1.64.1"
+  }
+}
