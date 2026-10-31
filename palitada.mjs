@@ -326,7 +326,8 @@ function serve(target) {
     }
     if (req.method === 'GET' && route === 'shot.js') {
       res.writeHead(200, { 'content-type': 'text/javascript' })
-      return fs.createReadStream(path.join(HERE, 'node_modules/modern-screenshot/dist/index.mjs')).pipe(res)
+      // Resolved, not HERE/node_modules: npm hoists it when palitada is a project dependency.
+      return fs.createReadStream(fileURLToPath(import.meta.resolve('modern-screenshot'))).pipe(res)
     }
     // Writes only from our own page: JSON content type forces a CORS preflight that we never
     // answer, and Origin/Host must be local. Stops other sites and DNS rebinding.

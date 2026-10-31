@@ -8,7 +8,7 @@
 
 Palitada is Filipino for plastering: point at a rough spot in your UI and smooth it over (and palit + ui, swap the UI, hides in the name).
 
-[![Install](https://img.shields.io/badge/Install-npm_i_--g_github:riecodes%2Fpalitada-CB3837?logo=npm&logoColor=white)](#install)
+[![Install](https://img.shields.io/badge/npm-palitada-CB3837?logo=npm&logoColor=white)](https://www.npmjs.com/package/palitada)
 [![Node](https://img.shields.io/badge/Node-20%2B-339933?logo=nodedotjs&logoColor=white)](https://nodejs.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-2563EB?logo=opensourceinitiative&logoColor=white)](LICENSE)
 
@@ -28,8 +28,10 @@ Palitada is Filipino for plastering: point at a rough spot in your UI and smooth
 ## Install
 
 ```sh
-npm install -g github:riecodes/palitada
+npm i -g palitada
 ```
+
+Or per project: `npm i -D palitada`, or no install at all: `npx palitada 3000`.
 
 ## Run
 
